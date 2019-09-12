@@ -1,12 +1,9 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
-      <button
-        class="button is-primary"
-        @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
-      >
-        Subscribe To Newsletter
-      </button>
+      <nuxt-link to="/about" class="button is-primary is-large">
+        About me
+      </nuxt-link>
     </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
@@ -17,14 +14,12 @@
         Nothing here
       </template>
     </main-section>
-    <news-letter-form-modal />
   </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
 import { setPageData } from '../helper'
-import NewsLetterFormModal from '~/components/NewsLetterFormModal'
 
 export default {
   name: 'HomePage',
@@ -32,9 +27,6 @@ export default {
     return {
       title: `Home | ${this.$siteConfig.siteName}`
     }
-  },
-  components: {
-    NewsLetterFormModal
   },
   computed: {
     ...mapState(['title', 'subtitle', 'featureImage'])

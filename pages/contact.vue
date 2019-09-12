@@ -1,8 +1,8 @@
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
-      title="Contact Us"
-      subtitle="Example Contact Page"
+      title="Contact Me"
+      subtitle="Wanna join forces? Need some help? Get in touch"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -16,12 +16,10 @@
               <p class="subtitle">
                 What can I do for you?
               </p>
-              <figure class="image is-1by1 ">
+              <figure class="image is-1by1">
                 <opti-image
-                  :src="require('~/assets/uploads/contact-person.jpg').src"
-                  :srcset="
-                    require('~/assets/uploads/contact-person.jpg').srcSet
-                  "
+                  :src="require('~/assets/uploads/contact-burns.jpg').src"
+                  :srcset="require('~/assets/uploads/contact-burns.jpg').srcSet"
                 />
               </figure>
               <br />

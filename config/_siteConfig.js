@@ -9,10 +9,10 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
-  featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  siteName: 'Alberto Masia',
+  tagline: 'Frontend Developer | Father of cats 😸',
+  featureImage: '/uploads/castelsardo-hero.jpg',
+  logo: '/logo-albe/logo-albe-2.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
@@ -29,17 +29,17 @@ export default {
     {
       name: 'Categories',
       link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'http://awake-premium-lp.danielkelly.io/',
-      target: '_blank'
     }
+    // {
+    //   name: 'Github Repo',
+    //   link: 'https://github.com/danielkellyio/awake-template',
+    //   target: '_blank'
+    // },
+    // {
+    //   name: 'Awake+ Premium',
+    //   link: 'http://awake-premium-lp.danielkelly.io/',
+    //   target: '_blank'
+    // }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -59,14 +59,14 @@ export default {
 
   // Disqus
   disqus: {
-    on: true,
+    on: false,
     loadingStrategy: 'button', // Options: onload, lazy, button
     siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
   newsletter: {
-    on: true,
+    on: false,
     heading: 'Subscribe to Our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
