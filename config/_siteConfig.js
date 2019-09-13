@@ -28,7 +28,7 @@ export default {
     },
     {
       name: 'CV',
-      link: './uploads/me-SRT.jpg',
+      link: '/vitae.pdf',
       target: '_blank'
     },
     {
