@@ -51,7 +51,7 @@
     </div>
     <div class="control">
       <button class="button is-primary">
-        Contact Me
+        Talk to me!
       </button>
     </div>
   </form>

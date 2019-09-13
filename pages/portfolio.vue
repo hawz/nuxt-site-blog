@@ -1,44 +1,34 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="About me"
-      subtitle=""
+      title="Portfolio"
+      subtitle="Work, work, work 💪🏻"
       image="/uploads/about-hero.jpg"
     ></site-hero>
-    <main-section theme="sidebar-right">
+    <main-section theme="one-column">
       <template v-slot:default>
         <div class="content">
-          <h3>Who am I 🤔</h3>
+          <h3>Fake Heading</h3>
           <p>
-            I'm a front end developer based in Sassari, Italy. I started coding
-            when I was 17 and then studied Computer Engineering at University of
-            Pisa. I believe in the beauty of code, and I love creating neat
-            solutions with it. Check out my
-            <a href="/uploads/me-SRT.jpg" target="_blank">
-              CV
-            </a>
-            and
-            <nuxt-link to="/contact">
-              talk to me
-            </nuxt-link>
-            if you could use a hand.
+            <strong>
+              Edit this page in<code>/pages/about.vue</code>to fit your needs.
+            </strong>
           </p>
-          <h3>What I like 😋</h3>
           <p>
-            I love cats, playing basketball, hiking, riding my motorbike and
-            mountain bike, reading graphic novels and nordic noir, eating any
-            kind of food and travelling to any kind of destination, especially
-            the Nordics.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
+            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
+            ratione rem repudiandae sit!
           </p>
-          <h3>Why in Sardinia 🏝</h3>
+
+          <h3>Another Fake Heading</h3>
           <p>
-            I was born and raised here, then I left when I was 18 to study and
-            work, only to come back a few years later
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
+            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
+            ratione rem repudiandae sit!
           </p>
-          <!-- <quote-card
-            quote="Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live."
-            author="Martin Golding"
-          /> -->
+          <quote-card />
           <h3>Still More Fake Content</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
@@ -52,7 +42,7 @@
           </p>
         </div>
 
-        <!-- <div class="tile is-ancestor">
+        <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
@@ -92,26 +82,23 @@
               </figure>
             </article>
           </div>
-        </div> -->
+        </div>
       </template>
 
       <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Latest Posts
-        </h3>
-        <posts-grid :per-row="1" :number="2" />
+        Nothing here
       </template>
     </main-section>
   </div>
 </template>
 <script>
-// import QuoteCard from '~/components/cards/QuoteCard'
+import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
-  }
-  // components: { QuoteCard }
+  },
+  components: { QuoteCard }
 }
 </script>

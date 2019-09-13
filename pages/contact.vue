@@ -2,7 +2,7 @@
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
       title="Contact Me"
-      subtitle="Wanna join forces? Need some help? Get in touch"
+      subtitle="Need some help? Get in touch!"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -11,7 +11,7 @@
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                Hello!
+                Hello
               </p>
               <p class="subtitle">
                 What can I do for you?
@@ -25,16 +25,41 @@
               <br />
               <div class="content">
                 <p>
-                  <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
-                  </strong>
+                  Feel free to reach me through the contact form or one of the
+                  following options.
                 </p>
-                <p>
-                  This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                <p class="has-text-centered">
+                  <a target="_blank" href="https://github.com/hawz">
+                    <font-awesome-layers full-width class="fa-3x">
+                      <font-awesome-icon :icon="['fab', 'github']" />
+                    </font-awesome-layers>
+                  </a>
+                  <a target="_blank" href="https://twitter.com/devAlbe">
+                    <font-awesome-layers full-width class="fa-3x">
+                      <font-awesome-icon :icon="['fab', 'twitter']" />
+                    </font-awesome-layers>
+                  </a>
+                  <a target="_blank" href="https://www.instagram.com/dev_albe">
+                    <font-awesome-layers full-width class="fa-3x">
+                      <font-awesome-icon :icon="['fab', 'instagram']" />
+                    </font-awesome-layers>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://stackoverflow.com/story/alberto.masia"
+                  >
+                    <font-awesome-layers full-width class="fa-3x">
+                      <font-awesome-icon :icon="['fab', 'stack-overflow']" />
+                    </font-awesome-layers>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/alberto-masia-b63b5b146"
+                  >
+                    <font-awesome-layers full-width class="fa-3x">
+                      <font-awesome-icon :icon="['fab', 'linkedin']" />
+                    </font-awesome-layers>
+                  </a>
                 </p>
               </div>
             </article>

@@ -64,6 +64,7 @@ export const getByPageMixin = {
         return resource
       }
     }
+    /* eslint no-useless-catch: "off" */
     try {
       let categories = await this.axios.$get(
         `api/${this.slugPlural}/page-${page}.json`

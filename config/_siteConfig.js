@@ -23,23 +23,27 @@ export default {
       link: '/about'
     },
     {
+      name: 'Portfolio',
+      link: '/portfolio'
+    },
+    {
+      name: 'CV',
+      link: './uploads/me-SRT.jpg',
+      target: '_blank'
+    },
+    {
       name: 'Contact',
       link: '/contact'
     },
     {
       name: 'Categories',
       link: '/categories'
+    },
+    {
+      name: 'Github',
+      link: 'https://github.com/hawz',
+      target: '_blank'
     }
-    // {
-    //   name: 'Github Repo',
-    //   link: 'https://github.com/danielkellyio/awake-template',
-    //   target: '_blank'
-    // },
-    // {
-    //   name: 'Awake+ Premium',
-    //   link: 'http://awake-premium-lp.danielkelly.io/',
-    //   target: '_blank'
-    // }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
