@@ -11,10 +11,12 @@
 export default {
   props: {
     quote: {
-      type: String
+      type: String,
+      default: ''
     },
     author: {
-      type: String
+      type: String,
+      default: ''
     }
   }
 }

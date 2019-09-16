@@ -3,96 +3,60 @@
     <site-hero
       title="About me"
       subtitle=""
-      image="/uploads/about-hero.jpg"
+      image="/uploads/me-SRT-big.jpeg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
           <h3>Who am I 🤔</h3>
           <p>
-            I'm a front end developer based in Sassari, Italy. I started coding
-            when I was 17 and then studied Computer Engineering at University of
-            Pisa. I believe in the beauty of code, and I love creating neat
-            solutions with it. Check out my
-            <a href="/uploads/me-SRT.jpg" target="_blank">
+            I am a front end web developer pushing code from Sassari, Italy. I
+            have experience in creating interactive websites and multilingual
+            applications in English and Italian for over 10 years. I not only
+            design but hand code in a number of programming languages. Check out
+            my
+            <nuxt-link to="/portfolio">
+              Portfolio
+            </nuxt-link>
+            and
+            <a href="/vitae.pdf" target="_blank">
               CV
             </a>
-            and
+            , then feel free to
             <nuxt-link to="/contact">
-              talk to me
+              reach out
             </nuxt-link>
             if you could use a hand.
           </p>
-          <h3>What I like 😋</h3>
+          <h3>Things I like 😋</h3>
+          <p>
+            I have a passion for beautiful code, making things work and front
+            end development frameworks: I started with AngularJS back in 2014,
+            then discovered Angular, and finally switched (and fell in ❤️ with)
+            Vue.js and React. Plus, I have a passion for Rails, which I try to
+            keep up with and I use for some side-project that probably will
+            never see the light of day. I like tidiness in all its forms,
+            probably due to a little OCD.
+          </p>
           <p>
             I love cats, playing basketball, hiking, riding my motorbike and
-            mountain bike, reading graphic novels and nordic noir, eating any
-            kind of food and travelling to any kind of destination, especially
-            the Nordics.
+            mountain bike, reading graphic novels and nordic noirs, eating any
+            kind of food (everything but tripe, it's like Kryptonite to me 🤢),
+            traveling to any kind of destination, especially the Nordics.
           </p>
-          <h3>Why in Sardinia 🏝</h3>
+          <h3>Sardinia 🏝</h3>
           <p>
-            I was born and raised here, then I left when I was 18 to study and
-            work, only to come back a few years later
-          </p>
-          <!-- <quote-card
-            quote="Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live."
-            author="Martin Golding"
-          /> -->
-          <h3>Still More Fake Content</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+            It's a wonderful island in the Mediterranean, famous for its
+            excellent climate and high
+            <a
+              target="_blank"
+              href="https://www.bluezones.com/exploration/sardinia-italy/"
+            >
+              life expectancy
+            </a>
+            .
           </p>
         </div>
-
-        <!-- <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Cool Stuff We Do
-              </p>
-              <p class="subtitle">
-                Sooo Cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Other Cool Things
-              </p>
-              <p class="subtitle">
-                Just as cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                All the cool
-              </p>
-              <p class="subtitle">
-                that is all
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-        </div> -->
       </template>
 
       <template v-slot:sidebar>

@@ -25,8 +25,9 @@
               <br />
               <div class="content">
                 <p>
-                  Feel free to reach me through the contact form or one of the
-                  following options.
+                  I am available for hire to work on large and small projects.
+                  Please get in touch if you would like to discuss a project
+                  with me. I would love to hear from you.
                 </p>
                 <p class="has-text-centered">
                   <a target="_blank" href="https://github.com/hawz">

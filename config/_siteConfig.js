@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Alberto Masia',
   tagline: 'Frontend Developer | Father of cats 😸',
-  featureImage: '/uploads/castelsardo-hero.jpg',
+  featureImage: '/uploads/sardinia/castelsardo-hero.jpg',
   logo: '/logo-albe/logo-albe-2.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
@@ -38,12 +38,12 @@ export default {
     {
       name: 'Categories',
       link: '/categories'
-    },
-    {
-      name: 'Github',
-      link: 'https://github.com/hawz',
-      target: '_blank'
     }
+    // {
+    //   name: 'Github',
+    //   link: 'https://github.com/hawz',
+    //   target: '_blank'
+    // }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
