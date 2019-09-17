@@ -14,7 +14,7 @@ I'll start saying that:
 
 > “This is my first blog post and it feels awkward“
 
-Now that I feel better, let's start with what my blog is about: code, `code`, and then again _code_ with a side of *code* and a sprinkle of **code** on top. Ok, maybe sometimes I'll write about something else, like [Sardinia](/categories/sardinia), the beautiful place where I come and push code from, but that's it. (By the way, the picture you see up there it's from [Torre del Porticciolo](https://it.wikipedia.org/wiki/Torre_del_Porticciolo), but maybe I'll talk later about places and how cool remote work from here is).
+Now I feel better :) let's start with what my blog is about: code, `code`, and then again _code_ with a side of *code* and a sprinkle of **code** on top. Ok, maybe sometimes I'll write about something else, like [Sardinia](/categories/sardinia), the beautiful place where I come and push code from, but that's it. (By the way, the picture you see up there it's from [Torre del Porticciolo](https://it.wikipedia.org/wiki/Torre_del_Porticciolo), but maybe I'll talk later about places and how cool remote work from here is).
 
 ### New website
 
