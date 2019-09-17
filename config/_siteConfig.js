@@ -15,7 +15,7 @@ export default {
   logo: '/logo-albe/logo-albe-2.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
-    id: process.env.GOOGLE_ANALYTICS_ID
+    id: 'UA-46741571-3'
   },
   mainMenu: [
     {

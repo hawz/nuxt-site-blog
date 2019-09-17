@@ -23,6 +23,11 @@
         'is-active': active
       }"
     >
+      <ul class="navbar-start">
+        <li class="navbar-item">
+          <Typewriter :type-array="iAm" />
+        </li>
+      </ul>
       <ul class="navbar-end">
         <li
           v-for="item in $siteConfig.mainMenu"
@@ -49,12 +54,20 @@
 <script>
 import SiteSearch from '~/components/SiteSearch'
 import HamburgerButton from '~/components/HamburgerButton'
+import Typewriter from '~/components/UI/TypewriterEffect'
+
 export default {
   name: 'SiteNav',
-  components: { SiteSearch, HamburgerButton },
+  components: { SiteSearch, HamburgerButton, Typewriter },
   data() {
     return {
-      active: false
+      active: false,
+      iAm: [
+        'Alberto Masia',
+        'a front end developer',
+        'in love with cats',
+        'probably hungry right now'
+      ]
     }
   }
 }
