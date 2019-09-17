@@ -32,10 +32,10 @@
           <p>
             I have a passion for beautiful code, making things work and front
             end development frameworks: I started with AngularJS back in 2014,
-            then discovered Angular, and finally switched (and fell in ❤️ with)
-            Vue.js and React. Plus, I have a passion for Rails, which I try to
-            keep up with and I use for some side-project that probably will
-            never see the light of day. I like tidiness in all its forms,
+            then discovered Angular, and finally switched to (and fell in ❤️
+            with) Vue.js and React. Plus, I have a passion for Rails, which I
+            try to keep up with and I use for some side-project that probably
+            will never see the light of day. I like tidiness in all its forms,
             probably due to a little OCD.
           </p>
           <p>
