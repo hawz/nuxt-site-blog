@@ -18,15 +18,20 @@ Now that I feel better, let's start with what my blog is about: code, `code`, an
 
 ### New website
 
-First, I'll start here telling you about the hows and whys of this website: I really needed a new version of my portfolio - the former being a bit useless, showing nothing more than an outdated list of projects - and I also wanted to start writing articles, as I'm convinced that it's both a good way to share the things I find interesting, plus it's a great exercise for the mind and my communicative skills. My former website looked like this:
+First, I'll start here telling you about the hows and whys of this website: I needed a new version of my portfolio - the former being a bit useless, showing nothing more than an outdated list of projects - and I also wanted to start writing articles, as I'm convinced that it's both a good way to share the things I find interesting, plus it's a great exercise for the mind and my communicative skills. My former website looked like this:
 
 ![My Former Website](/uploads/former-website.png)
 
 I know, I deserved something better and more structured, that's why I decided to get rid of it and look into the [JAM Stack](https://jamstack.org/), which is a way of building websites that compile down basically to HTML, CSS and JavaScript and then is served over a CDN. Also, all server-side processes or database actions are abstracted into reusable APIs, accessed over HTTPS with JavaScript. 
 
-It's worth a try, and I think I bumped into an excellent solution with the [Awake Template](https://github.com/danielkellyio/awake-template), a project built on [Nuxt.js](https://www.nuxtjs.org) that includes markdown parsing and other optimizations allowing you to create blazing fast pages. On top of that, it's ready to be deployed on [Netlify](https://www.netlify.com/), it's easy as doing a `git push` to your Github repo.
-I'm really happy with this solution, as It makes me free to focus on writing and just pushing `.md` files to see them published. It's awesome!
+It's worth a try, and I think I bumped into an excellent solution with the [Awake Template](https://github.com/danielkellyio/awake-template), a project built on [Nuxt.js](https://www.nuxtjs.org) that includes markdown parsing and other optimizations allowing you to create blazing fast pages. Besides, it comes with the [Bulma](https://bulma.io/) framework for styles and [Purge CSS](https://www.purgecss.com/) for minimizing the css sent to the browser by removing any unused styles at compile time.
 
-I'm gonna add i18n soon, to write some posts in Italian as well, but until then I hope that you'll want to forgive the mistakes you'll find in the articles, as I'm not exactly a native speaker, but as soon as I add the comments feature, feel free to point them out! Thanks, I hope you'll enjoy it as much as I do!
+On top of that, it's ready to be deployed to [Netlify](https://www.netlify.com/), it's easy as doing a `git push` to your Github repo which will trigger Netlify to run the build scripts and publish the latest version of your site.
+
+I'm  happy with this solution, as It makes me free to focus on writing and just pushing `.md` files to see them published. It's awesome!
+
+I'm gonna add i18n soon, to write some posts in Italian as well, but until then I hope that you'll want to forgive the mistakes you'll find in the articles, as I'm not exactly a native speaker, but as soon as I add the comments feature, feel free to point them out! 
+
+Thanks, I really hope you'll like it and will find it useful as much as I do!
 
 Have a good one!
