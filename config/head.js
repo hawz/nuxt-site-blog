@@ -15,6 +15,13 @@ export default {
       src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
       defer: true,
       id: 'netlify-identity-widget-script'
+    },
+    {
+      src: '/iub-conf.js',
+    },
+    {
+      src: '//cdn.iubenda.com/cs/iubenda_cs.js',
+      async: true
     }
   ]
 }
